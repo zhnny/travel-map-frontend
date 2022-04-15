@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <olmap/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import olmap from './components/OlMap.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    olmap
   }
 }
 </script>
@@ -21,6 +20,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0px;
+  width: 100%;
+  height: 100%;
 }
 </style>
